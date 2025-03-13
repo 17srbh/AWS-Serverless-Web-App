@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://123static-web.s3.eu-north-1.amazonaws.com/WhatsApp+Image+2025-03-01+at+19.46.08.jpeg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the full background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Adds a slight transparency to make text readable */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  width: 80%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Ensures contrast with the background */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
