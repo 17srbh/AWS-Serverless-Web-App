@@ -33,4 +33,5 @@ This will install all dependencies listed in package.json. If node_modules/ is m
 *Start your application : 
  npm start
 ** By default, the server runs on http://localhost:3000/.**
+
 **Note : Make changes in public/app.js with "const API_URL = <API>"**
