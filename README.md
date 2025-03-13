@@ -1,6 +1,6 @@
 # AWS-Serverless-Web-App
 
-Prerequisites ----------------------------------------------------------------------
+**Prerequisites ----------------------------------------------------------------------**
 Ensure you have the following installed on your system:
 
 Node.js (Download from nodejs.org)
@@ -15,7 +15,7 @@ Install required dependencies
 npm install
 This will install all dependencies listed in package.json. If node_modules/ is missing, it will be generated.
 
-AWS Deployment --------------------------------------------------------------------
+**AWS Deployment --------------------------------------------------------------------**
 
 *Created an S3 bucket and enabled static website hosting.
  Uploaded the frontend files (index.html, app.js, style.css) stored in public folder.
@@ -32,5 +32,5 @@ AWS Deployment -----------------------------------------------------------------
 
 *Start your application : 
  npm start
- By default, the server runs on http://localhost:3000/.
+** By default, the server runs on http://localhost:3000/.**
 
